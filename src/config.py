@@ -1,0 +1,8 @@
+DATA_DIR = "data/"
+MODEL_DIR = "models/"
+IMG_SIZE = 224
+BATCH_SIZE = 32
+EPOCHS = 30
+NUM_CLASSES = 30
+DEVICE = "cuda"
+
