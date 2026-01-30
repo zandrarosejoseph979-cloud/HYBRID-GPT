@@ -1,0 +1,45 @@
+Hybrid-Ensemble-Vision-System/
+│
+├── README.md
+├── requirements.txt
+├── LICENSE
+├── .gitignore
+│
+├── data/
+│   ├── raw/
+│   │   └── README.md
+│   ├── processed/
+│   │   └── README.md
+│   └── sample_images/
+│       └── example.jpg
+│
+├── notebooks/
+│   └── exploratory_data_analysis.ipynb
+│
+├── src/
+│   ├── config.py
+│   ├── utils.py
+│   ├── preprocessing.py
+│   ├── train_convnext.py
+│   ├── train_resnet.py
+│   ├── gpt4o_finetune.py
+│   ├── ensemble.py
+│   └── inference.py
+│
+├── app/
+│   └── app.py
+│
+├── results/
+│   ├── figures/
+│   ├── metrics/
+│   │   └── results_summary.csv
+│   └── README.md
+│
+├── docs/
+│   ├── ieee_paper.pdf
+│   ├── architecture.png
+│   ├── workflow.png
+│   └── screenshots/
+│
+└── experiments/
+    └── experiment_logs.md
